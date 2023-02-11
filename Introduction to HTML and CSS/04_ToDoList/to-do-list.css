@@ -1,0 +1,16 @@
+main.p{
+    text-align: center;
+}
+
+main.ol{
+    margin: 12px;
+}
+
+main.my-list{
+    background-color: #f7f381;
+    padding: 8px 24px;
+    width: 500px;
+    font-size: 30px;
+    border: 1px solid #f7f3;
+    box-shadow: 0 0 10px 2px #333333;
+}
