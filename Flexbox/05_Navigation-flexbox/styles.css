@@ -1,0 +1,15 @@
+header{
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+}
+
+a{
+    list-style-type: none;
+    color: rgb(0, 153, 0);
+}
+
