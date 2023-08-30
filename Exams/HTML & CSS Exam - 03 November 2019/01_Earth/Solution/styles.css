@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+body {
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+    background-color: #0A2C48;
+    height: 110px;
+}
+
+main {
+    padding: 30px 12px;
+    display: flex;
+    gap: 10px;
+}
+
+header h1 {
+    color: #5bc0de;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-left: 12px;
+    padding-top: 12px;
+}
+
+header h5 {
+    color: white;
+    font-size: 24px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.card {
+    display: flex;
+    border: 1px solid black;
+    width: 400px;
+    padding: 12px;
+    flex-direction: column;
+}
+
+.card-desc {
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.description {
+    width: 42%;
+    padding: 20px;
+}
+
+.description p {
+    font-size: 40px;
+    padding: 0 20px;
+    font-weight: lighter;
+}
+
+h4 {
+    background-color: #001216;
+    color: #F7FFFF;
+    font-weight: bold;
+    width: 18%;
+    text-align: center;
+    height: 43px;
+    padding-top: 4px;
+    font-size: 38px;
+}
+
+.footer-info {
+    background-color: #D9EBEB;
+    padding: 20px;
+}
+
+span {
+    font-weight: bolder;
+}
