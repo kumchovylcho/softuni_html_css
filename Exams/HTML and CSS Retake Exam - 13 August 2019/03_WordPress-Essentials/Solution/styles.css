@@ -1,0 +1,540 @@
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+
+.softuni-logo {
+    display: flex;
+    align-items: center;
+}
+
+.softuni-logo img {
+    height: 50px;
+}
+
+header {
+    background-color: #234465;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.apply-btn {
+    background-color: #FFA000;
+    color: white;
+    font-size: 15px;
+    border-radius: 24px;
+    padding: 10px 10px;
+    margin-left: 24px;
+}
+
+.links {
+    display: flex;
+}
+
+.links-titles {
+    display: flex;
+    align-items: center;
+}
+
+.links-titles li a {
+    color: #91A1AF;
+    font-weight: bold;
+}
+
+.links-titles li {
+    margin: 0 10px;
+}
+
+.links .logo-btn {
+    display: flex;
+    align-items: center;
+}
+
+.logo-btn .enter-btn {
+    background-color: #FFA000;
+    color: white;
+    border-radius: 24px;
+    padding: 6px 18px;
+    margin-left: 24px;
+}
+
+.search-logo {
+    color: #91A1AF;
+    margin-left: 12px;
+}
+
+.course-choices {
+    display: flex;
+    margin-left: 290px;
+    padding: 20px 0;
+}
+
+.software-engineer {
+    color: #EAB452;
+}
+
+.open-courses {
+    color: #234476;
+    margin-left: 30px;
+    position: relative;
+}
+
+.open-courses::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #234476;
+    bottom: -20px;
+}
+
+.course-info {
+    background-color: rgb(168, 111, 5);
+    height: 300px;
+    padding: 40px 0px;
+    z-index: -2;
+}
+
+.course-info h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.course-info-icons i {
+    color: white;
+    padding: 10px 12px;
+    font-size: 30px;
+}
+
+.course-info-icons span {
+    color: white;
+    font-size: 25px;
+}
+
+.course-info-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.apply-to-join-btn {
+    background-color: #FFA000;
+    color: white;
+    border-radius: 24px;
+    padding: 14px 130px;   
+}
+
+.apply-to-join-btn-wrapper {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.course-description {
+    z-index: 0;
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.course-description::before {
+    position: absolute;
+    content: "";
+    background-image: url("../Requirements-and-Resources/images/wordpress.png");
+    width: 100%;
+    height: 185%;
+    background-repeat: no-repeat;
+    transform: rotate(20deg);
+    opacity: 0.5;
+    left: -172px;
+    top: 38px;
+    z-index: -1;
+}
+
+.course-description-body {
+    text-align: center;
+    background-color: #F2F2F2;
+    width: 70%;
+    padding: 20px 40px;
+}
+
+.course-description-body h2 {
+    color: #234465;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+    font-size: 40px;;
+}
+
+.course-description-body p {
+    color: #555A65;
+    line-height: 2rem;
+    font-weight: 500;
+    text-align: left;
+    font-size: 18px;
+}
+
+.course-description-body p span {
+    font-weight: bolder;
+    color: #234465;
+}
+
+.course-description-body h2::before {
+    position: absolute;
+    content: "";
+    width: 170px;
+    height: 5px;
+    background-color: #FFA000;
+    bottom: -8px;
+    left: 545px;
+}
+
+.course-description-body button {
+    margin-top: 50px;
+}
+
+.skills-to-learn {
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.skills-to-learn-wrapper {
+    background-color: #F2F2F2;
+    width: 70%;
+    z-index: 1;
+}
+
+.skills-to-learn-wrapper h2 {
+    color: #234465;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.skills-to-learn-wrapper h2::before {
+    position: absolute;
+    content: "";
+    width: 566px;
+    height: 5px;
+    background-color: #FFA000;
+    bottom: -8px;
+    left: 385px;
+}
+
+.skills-to-learn-skills article ul i {
+    color: #FFA000;
+    font-size: 30px;
+    line-height: 3rem;
+}
+
+.skills-to-learn article ul span {
+    color: #565656;
+    margin-left: 6px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.skills-wrapper {
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.themes {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.themes-wrapper {
+    background-color: #F2F2F2;
+    width: 70%;
+}
+
+.theme-header {
+    color: #234465;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+    font-size: 40px;
+    padding: 20px 0px;
+}
+
+.theme-header::before {
+    position: absolute;
+    content: "";
+    width: 91px;
+    height: 5px;
+    background-color: #FFA000;
+    bottom: 7px;
+    left: 623px;
+}
+
+.themes-list-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    padding-bottom: 70px;
+}
+
+.themes-list-wrapper article ul li {
+    position: relative;
+    width: 550px;
+    background-color: #DADADA;
+    padding: 10px 6px;
+    margin-top: 8px;
+    color: #234465;
+}
+
+.themes-list-wrapper article ul li::before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 100%;
+    background-color: #234465;
+    left: -4px;
+    top: 0px;
+}
+
+.themes-list-wrapper article ul li span {
+    color: #56565B;
+    margin-left: 18px;
+    font-weight: bolder;
+}
+
+.course-target {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+
+}
+
+.course-target-wrapper {
+    width: 70%;
+    background-color: #FFA000;
+}
+
+.course-target-wrapper h2 {
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 28px;
+    padding: 20px 0px;
+}
+
+.course-target-wrapper p {
+    line-height: 1.5rem;
+    color: white;
+    font-weight: normal;
+    padding: 20px 50px;
+    font-size: 20px;
+}
+
+.course-target-wrapper h2::before {
+    position: absolute;
+    content: "";
+    width: 423px;
+    height: 5px;
+    background-color: white;
+    bottom: 7px;
+    left: 453px;
+}
+
+.course-start-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    position: relative;
+}
+
+.course-start-info-wrapper {
+    width: 70%;
+    background-color: #F2F2F2;
+    padding: 0px 30px;
+    padding-top: 20px;
+    padding-bottom: 213px;
+}
+
+.course-start-info-header {
+    color: #FFA00B;
+    font-size: 25px;
+}
+
+.course-start-info-description {
+    font-weight: normal;
+    color: #766A5C;
+    line-height: 1.4rem;
+    font-size: 20px;
+}
+
+.course-start-info-description span {
+    font-weight: bold;
+}
+
+.course-start-info-wrapper article:last-child {
+    margin-top: 18px;
+}
+
+.blue {
+    color: #337AB7;
+}
+
+.onSite,
+.online {
+    display: flex;
+    padding: 12px 0px;
+}
+
+.onSite ul {
+    margin: 0px auto;
+}
+
+.online ul {
+    margin-left: 408px;
+}
+
+.online ul li,
+.onSite ul li {
+    list-style-type: disc;
+    color: white;
+    margin-top: 4px;
+    font-weight: normal;
+}
+
+.onSite {
+    background-color: #234465;
+}
+
+.online {
+    background-color: #FFA000;
+}
+
+.course-start-info-header-left {
+    text-align: start;
+    color: white;
+    font-size: 20px;
+    padding-left: 12px;
+}
+
+.course-start-info-onSiteOnline {
+    position: absolute;
+    bottom: -8px;
+    width: 68%;
+    box-shadow: 3px 2px 15px grey;
+}
+
+.lecturer {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    position: relative;
+}
+
+.lecturer-wrapper {
+    width: 70%;
+    background-color: #F2F2F2;
+}
+
+.lecturer-wrapper .lecturer-header {
+    color: #234465;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+    font-size: 40px;
+    padding: 20px 0px;
+}
+
+.lecturer-name {
+    color: #234465;
+    padding: 12px 80px;
+    font-size: 35px;
+    margin-top: -26px;
+}
+
+.lecturer-wrapper .lecturer-header::before {
+    position: absolute;
+    content: "";
+    width: 292px;
+    height: 5px;
+    background-color: #FFA000;
+    bottom: 7px;
+    left: 523px;
+}
+
+.lecturer-description {
+    padding: 0px 36px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.lecturer-description p {
+    padding: 0px 80px;
+}
+
+.lecturer-img img {
+    border-radius: 50%;
+    width: 150%;
+    height: 100%;
+}
+
+.lecturer-description-text p span {
+    font-weight: bolder;
+}
+
+.lecturer-description-text p {
+    color: #585656;
+    font-weight: normal;
+    line-height: 1.4rem;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #162B40;
+    margin-top: 70px;
+    padding: 40px 0px;
+}
+
+.footer-title {
+    color: #FFA011;
+    padding: 12px 0px;
+}
+
+footer article ul li {
+    color: white;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.footer-icons-logos i {
+    margin-right: 12px;
+    font-size: 22px;
+    color: white;
+}
+
+.footer-icons-text {
+    padding: 30px 0px;
+}
+
+.footer-icons-text p {
+    color: #7A8592;
+    width: 65%;
+    margin-top: 12px;
+}
+
+.footer-icons {
+   margin-top: 15px;
+}
