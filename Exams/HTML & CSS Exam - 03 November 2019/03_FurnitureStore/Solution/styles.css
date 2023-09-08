@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: #F0E4E4;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F93700;
+    padding: 24px;
+}
+
+header nav ul {
+    display: flex;
+    color: white;
+    padding: 0px 24px;
+}
+
+header nav ul li {
+    padding: 0px 25px;
+}
+
+nav input {
+    width: 420px;
+    padding: 5px 14px;
+}
+
+nav p {
+    color: white;
+    padding-right: 50px;
+}
+
+nav p span {
+    padding-left: 10px;
+}
+
+.search-bar i {
+    position: absolute;
+    background-color: #B6AFAF;
+    padding: 9px 18px;
+    margin-right: 0px;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    padding: 36px 0px;
+}
+
+.rooms ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rooms ul li {
+    width: 23%;
+}
+
+.rooms ul img {
+    width: 100%;
+    height: 100%;
+}
+
+.rooms p {
+    margin-top: 12px;
+    text-align: center;
+    color: #878080;
+}
+
+.fall-collection {
+    display: flex;
+}
+
+.fall-collection-header {
+    width: 28%;
+}
+
+.fall-collection img {
+    width: 100%;
+}
+
+.fall-img {
+    height: 100%;
+}
+
+.fall-collection-header h1 {
+    color: #F93700;
+    font-size: 40px;
+    margin-top: 145px;
+}
+
+.fall-collection-header p {
+    color: #878080;
+    padding: 24px 0px;
+}
+
+.fall-collection-header button {
+    background-color: #F93700;
+    padding: 12px 12px;
+    border-radius: 6px;
+    color: white;
+}
+
+.service-info {
+    display: flex;
+    background-color: #CAC3C3;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.service-description {
+    margin-top: 6px;
+    color: #76716F;
+}
+
+.truck-shipping ul li img {
+    scale: 0.9;
+}
+
+.amazing-deals ul li img {
+    margin-top: 13px;
+    width: 172px;
+    height: 172px;
+    scale: 0.8;
+    margin-left: 10px;
+}
+
+.service-header {
+    font-weight: bold;
+    color: #474242;
+}
+
+.white-circle {
+    background-color: #E6D6D6;
+    border-radius: 50%;
+    width: 192px;
+    height: 193px;
+}
+
+.service-info-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customer-support ul li img {
+    margin-top: 13px;
+    width: 172px;
+    height: 172px;
+    scale: 0.8;
+    margin-left: 10px;
+}
+
+.footer-links ul {
+    display: flex;
+}
+
+.footer-links ul li {
+    padding: 0px 8px;
+    color: #76716F;
+}
+
+.footer-links ul li:first-child {
+    font-weight: bold;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logos {
+    display: flex;
+}
+
+.footer-logos button {
+    background-color: #CAC3C3;
+    padding: 8px 55px;
+    border-radius: 6px;
+}
+
+.footer-logos-icons {
+    padding-left: 34px;
+}
+
+.footer-logos-icons i{
+    padding-left: 10px;
+    color: #808080;
+    font-size: 30px;
+}
+
+.footer-logos p {
+    padding: 0px 12px;
+}
+
+.footer-logos p:first-child {
+    font-weight: bold;
+    color: #76716F;
+}
+
+.footer-logos:last-child {
+    color: #76716F;
+}
