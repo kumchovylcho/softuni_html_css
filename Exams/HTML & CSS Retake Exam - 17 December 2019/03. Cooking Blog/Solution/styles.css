@@ -1,0 +1,256 @@
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap');
+
+
+body {
+    font-family: 'Gelasio', serif;
+    background-image: url("../Requirements-and-Resources/Media/background.jpg");
+    background-repeat: no-repeat;
+    background-position: 49% 4%;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E6E3DE;
+    padding: 12px 24px;
+}
+
+.nav-title h1 {
+    color: #554938;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    padding: 0px 16px;
+    font-size: 18px;
+    color: #554938;
+}
+
+.nav-buttons ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-buttons ul li {
+    padding: 0px 12px;
+}
+
+.nav-buttons-log-in {
+    background-color: #554938;
+    color: #F4ECD2;
+    padding: 12px 12px;
+}
+
+.header-img {
+    position: relative;
+    height: 600px;
+}
+
+.header-img img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.header-search-bar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-search-bar-title {
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.header-search-bar-field {
+    position: relative;
+    text-align: center;
+}
+
+.header-search-bar-field input{
+    color: #DEE5F1;
+    width: 90%;
+    padding: 6px 0px;
+    opacity: 0.6;
+    margin-top: 24px;
+}
+
+.header-search-bar i {
+    z-index: 1;
+    color: gray;
+    position: absolute;
+    left: 35px;
+    top: 75px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.items-wrapper {
+    width: 80%;
+}
+
+.cocktails {
+    width: 60%;
+}
+
+.cocktails img {
+    width: 100%;
+    height: 100%;
+}
+
+.party-text {
+    display: flex;
+    width: 40%;
+    background-color: #E6E3DE;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.party-items {
+    display: flex;
+    margin-top: 84px;
+}
+
+.text-title {
+    font-size:36px;
+    font-weight: bold;
+    color: #000000;
+    padding-bottom: 12px;
+}
+
+.text-description {
+    color: #000000;
+    font-size: 35px;
+    font-weight: 800;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.party-text button {
+    background-color: #554938;
+    color: white;
+    padding: 10px 16px;
+}
+
+.cookies-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.cookie-items {
+    display: flex;
+}
+
+.cookies-img {
+    width: 60%;
+}
+
+.party-text {
+    width: 40%;
+}
+
+.cookie-items {
+    margin-top: 48px;
+}
+
+.cookie-btn {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.cookie-btn-toolbox {
+    background-color: #DCDDDB;
+    color: #55493F;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 8px 44px;
+}
+
+.cookie-tools-item-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.cookie-tools-items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cookie-tools-item-img {
+    height: 85%
+}
+
+.cookie-tools-item-text {
+    height: 15%;
+    background-color: #D2D4D2;
+    opacity: 0.8;
+    padding: 10px 24px;
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.cookie-tools-item {
+    width: 20%;
+}
+
+.cookie-tools {
+    margin-top: 16px;
+}
+
+.shop-btn button {
+    background-color: #DB4D35;
+    color: white;
+    padding: 12px 108px;
+    font-weight: bold;
+}
+
+.shop-btn {
+    text-align: center;
+    padding: 48px 0px;
+}
+
+footer {
+    background-color: #D4D4CD;
+    opacity: 0.9;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 36px 0px;
+}
+
+footer nav ul {
+    display: flex;
+    position: relative;
+}
+
+footer nav ul li {
+    padding: 0px 20px;
+}
+
+footer nav ul li:not(:last-child)::after {
+    position: absolute;
+    content: " | ";
+    color: #939392;
+    padding-left: 17px;
+}
