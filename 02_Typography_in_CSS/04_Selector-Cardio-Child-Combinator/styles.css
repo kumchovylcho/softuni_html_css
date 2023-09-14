@@ -1,0 +1,3 @@
+article > code:nth-child(3) {
+    text-decoration: line-through;
+}
