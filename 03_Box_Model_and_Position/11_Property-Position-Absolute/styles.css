@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+}
+
+#two {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: blue;
+}
+
+#one,
+#three {
+  position: relative;
+}
