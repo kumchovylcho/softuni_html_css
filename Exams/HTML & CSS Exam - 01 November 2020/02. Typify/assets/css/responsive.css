@@ -1,0 +1,75 @@
+@media screen and (max-width: 600px) {
+    .banner h2 {
+        width: 90%;
+        font-size: 1.6em;
+    }
+
+    .banner {
+        padding: 4em 0 6em 0;
+    }
+
+    ul.actions li {
+        display: block;
+    }
+
+    .actions li a {
+        width: 90%;
+    }
+
+    .actions {
+        margin: 0;
+    }
+
+    .wrapper > .inner {
+        width: 92%;
+    }
+
+    body > section:nth-child(2) > article > header > h2 {
+        font-size: 23px;
+    }
+
+    header.major {
+        margin-bottom: 0;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        width: 100%;
+    }
+
+    .wrapper {
+        padding: 2em 0 0em 0;
+    }
+
+    .wrapper > .inner.narrow {
+        width: 90%;
+    }
+
+    .grid-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid-form .form-control.narrow {
+        width: 100%;
+    }
+
+    .wrapper.style2 input[type="submit"] {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 2em 0 1em 0;
+    }
+
+    .footer::before {
+        height: 3px;
+        left: 10%;
+        width: 80%;
+    }
+
+}
