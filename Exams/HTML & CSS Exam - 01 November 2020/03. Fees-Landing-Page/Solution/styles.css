@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+header .header-logo img {
+    width: 50%;
+    height: 100%;
+}
+
+header nav,
+header nav ul {
+    display: flex;
+}
+
+header nav {
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 100px 24px 100px;
+}
+
+header nav ul li {
+    margin-left: 12px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+header nav ul li a {
+    color: #64687B;
+}
+
+.taxes {
+    height: 400px;
+    background-color: #54546D;
+    position: relative;
+    margin-bottom: 315px;
+}
+
+.taxes > h2 {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.calculator-logo img {
+    position: absolute;
+    top: 22%;
+    left: -4%;
+}
+
+.programs {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -43%;
+    gap: 42px;
+}
+
+.design-basics,
+.pro-program {
+    width: 29%;
+}
+
+.design-basics-header,
+.pro-program-header {
+    background-color: white;
+}
+
+.design-basics-footer {
+    background: linear-gradient(260deg, rgba(74,213,127,1) 0%, rgba(36,182,92,1) 35%, rgba(3,155,61,1) 100%);
+}
+
+body > main > section > section > article:nth-child(2) > article.pro-program-footer {
+    background: linear-gradient(90deg, rgba(77,109,138,1) 0%, rgba(87,131,171,1) 35%, rgba(97,154,206,1) 100%);
+}
+
+body > main > section > section > article:nth-child(3) > article.pro-program-footer {
+    background: linear-gradient(90deg, rgba(76,57,167,1) 0%, rgba(107,90,195,1) 50%, rgba(138,123,223,1) 100%);
+}
+
+.design-basics-header,
+.pro-program-header {
+    height: 70%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 24px 36px 24px;
+}
+
+.pro-program-footer,
+.design-basics-footer {
+    height: 30%;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.design-basics-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.design-basics-footer h2,
+.design-basics-footer p {
+    color: white;
+}
+
+.design-basics-footer h2 {
+    font-size: 30px;
+}
+
+.design-basics-footer p {
+    font-size: 20px;
+}
+
+.design-basics-header h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 12px;
+    color: #54546D;
+}
+
+.design-basics-header p {
+    font-size: 21px;
+    margin-bottom: 75px;
+    color: #54546D;
+}
+
+.design-basics-header button {
+    color: white;
+    background-color: #9A5DC6;
+    padding: 18px 36px;
+    border-radius: 24px;
+    font-size: 18px;
+}
+
+.pro-program-header-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 36px;
+    color: #54546D;
+}
+
+.pro-program-header-text {
+    font-size: 21px;
+    margin-bottom: 28px;
+    color: #54546D;
+    text-align: center;
+}
+
+.pro-program-footer {
+    display: flex;
+    position: relative;
+}
+
+.pro-program-footer-left,
+.pro-program-footer-right {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro-program-footer-left-price,
+.pro-program-footer-right-price {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.pro-program-footer-left-text,
+.pro-program-footer-right-text {
+    color: white;
+    font-size: 22px;
+}
+
+.pro-program-footer::after {
+    position: absolute;
+    z-index: 2;
+    content: "";
+    width: 2px;
+    height: 100px;
+    background-color: white;
+    right: 50%;
+    bottom: 6%;
+}
+
+.benefits {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.benefits-header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #54546D;
+    margin-bottom: 24px;
+}
+
+.benefits-text {
+    font-size: 18px;
+    color: #54546D;
+    line-height: 1.3rem;
+    margin-bottom: 36px;
+}
+
+.benefits ul li:nth-child(odd) {
+    background-color: #E6E6E6;
+}
+
+.benefits ul li:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+.benefits ul li:first-child {
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.benefits ul li:last-child {
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.benefits ul li {
+    padding: 24px 12px;
+    color: #54546D;
+    font-size: 20px;
+}
+
+.benefit-item {
+    position: relative;
+}
+
+.benefit-item-check-left {
+    position: absolute;
+    right: 25%;
+}
+
+.benefit-item-check-right {
+    position: absolute;
+    right: 8%;
+}
+
+.benefits ul {
+    margin-bottom: 120px;
+}
+
+.postbank-container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.postbank-header {
+    font-size: 28px;
+    color: #54546D;
+    margin-bottom: 24px;
+}
+
+.postbank-left p {
+    margin-bottom: 24px;
+    color: #54546D;
+    line-height: 1.3rem;
+}
+
+footer p {
+    color: #908FA7;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer {
+    padding: 48px 0px;
+    background-color: #54546D;
+}
