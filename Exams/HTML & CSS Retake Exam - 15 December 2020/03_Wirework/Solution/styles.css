@@ -1,0 +1,227 @@
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+header nav {
+    padding: 24px 0px 36px 0px;
+}
+
+.nav-wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left h1 {
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    color: #2C383B;
+}
+
+.nav-left h1::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 50px;
+    background-color: #2C383B;
+    right: -9%;
+    top: -7%;
+}
+
+.nav-left p {
+    font-size: 16px;
+    color: #2C383B;
+    margin-top: 7px;
+    margin-left: 40px;
+}
+
+.nav-right {
+    display: flex;
+    gap: 3px;
+}
+
+.nav-right button {
+    padding: 24px 28px 24px 28px;
+    font-size: 25px;
+    background-color: #ECECEC;
+    color: #2C383B;
+}
+
+.nav-right button:first-of-type {
+    background-color: #E24E2A;
+    color: white;
+}
+
+#hero {
+    height: calc(65vh - 66px);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero .img-container {
+    overflow: hidden;
+}
+  
+#hero .img-container .hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wirework-wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.wirework-wrapper p {
+    color: #F5C7BC;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.wire-work-b {
+    font-weight: bold;
+}
+
+.wirework-underline {
+    color: white;
+    text-decoration: underline;
+}
+
+.wirework-description {
+    background-color: #E24E2A;
+    padding: 48px 0px 60px 0px;
+}
+
+.benefits {
+    background-color: #383838;
+    padding: 80px 0px 90px 0px;
+}
+
+ .benefits-wrapper { 
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+ }
+
+ .benefit-item i {
+    background-color: #E24E2A;
+    font-size: 60px;
+    padding: 24px;
+    color: white;
+    margin-bottom: 12px;
+ }
+
+ .benefit-item h3 {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 48px;
+ }
+
+ .benefit-item p {
+    position: relative;
+    color: #696A6C;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.8rem;
+ }
+
+ .benefit-item p::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #696A6C;
+    top: -40%;
+    left: 0%;
+ }
+
+ .benefit-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24%;
+ }
+
+ .after-benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px 80px 0px;
+ }
+
+ .after-benefits h2 {
+    color: #555555;
+    font-size: 40px;
+    margin-bottom: 12px;
+ }
+
+ .after-benefits p {
+    color: #A2A2A2;
+    font-size: 20px;
+    margin-bottom: 36px;
+ }
+
+ .after-benefits button {
+    background-color: #1B9772;
+    padding: 16px 56px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+ }
+
+ .before-footer {
+    background-color: #383838;
+    padding: 120px 0px;
+ }
+
+ .before-footer-item h3 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 48px;
+ }
+
+ .before-footer-item p {
+    color: #A2A2A2;
+    font-size: 21px;
+    line-height: 2rem;
+    text-align: center;
+ }
+
+ .before-footer-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .before-footer-item {
+    width: 23%;
+ }
+
+ footer {
+    background-color: #1B9772;
+    padding: 100px 0px;
+ }
+
+ footer p {
+    color: #52B299;
+    text-align: center;
+    letter-spacing: 2px;
+ }
+
+ .white-text {
+    color: white;
+ }
