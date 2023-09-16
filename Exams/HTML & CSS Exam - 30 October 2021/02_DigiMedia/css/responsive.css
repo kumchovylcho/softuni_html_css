@@ -1,0 +1,97 @@
+@media screen and (max-width: 600px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .container-fluid img {
+        display: none;
+    }
+
+    .navbar-light .navbar-brand {
+        margin: 0;
+    }
+
+    .hero h1 {
+        margin-top: 110px;
+        text-align: center;
+    }
+
+    .hero p {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .hero-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 125px;
+    }
+
+    .hero-btns a:first-child {
+        padding: 17px 70px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.col-12.col-sm-12.col-lg-4.service-txt > h2 {
+        text-align: center;
+    }
+
+    .col-sm-6 {
+        max-width: 90%;
+    }
+
+    .col-sm-12 {
+        margin-bottom: 0;
+    }
+
+    .col-sm-12 h5 {
+        font-size: 1.5rem;
+    }
+
+    .col-sm-12 h5,
+    .about h2, 
+    .about p {
+        text-align: center;
+    }
+
+    .about {
+        margin-bottom: 90px;
+    }
+
+    .service-box img {
+        display: block;
+    }
+
+    section.about > div > div > div:nth-child(1) {
+        margin-bottom: 65px;
+    }
+
+    #contact-us > div > div:nth-child(1) > div > h5 {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    #contact-us > div > div:nth-child(1) > div > h2 {
+        text-align: center;
+    }
+
+    #contact-us > div > div:nth-child(3) > div:nth-child(2) > div > a {
+        display: none;
+    }
+
+    footer h3 {
+        font-size: 4rem;
+        line-height: 4.5rem;
+    }
+
+    .contact-nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
