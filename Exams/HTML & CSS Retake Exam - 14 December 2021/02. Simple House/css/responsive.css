@@ -1,0 +1,26 @@
+@media screen and (max-width: 600px) {
+    .tm-nav {
+        width: 100%;
+    }
+
+    .tm-section-title {
+        width: 100%;
+        margin-left: 0;
+        font-weight: bold;
+    }
+
+    .tm-gallery {
+        margin-left: 0;
+    }
+
+    .tm-gallery-page {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tm-cta-section {
+        width: 100%;
+    }
+    
+}
