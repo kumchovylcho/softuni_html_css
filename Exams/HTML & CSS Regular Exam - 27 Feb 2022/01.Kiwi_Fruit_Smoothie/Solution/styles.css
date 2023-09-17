@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+    font-family: 'PT Serif', serif;
+}
+
+.wrapper {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 24px 12px;
+    box-shadow: 1px 1px 20px gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.kiwi,
+.kiwi-img {
+    width: 49%;
+}
+
+.kiwi-img {
+    padding-right: 12px;
+}
+
+.kiwi {
+    padding-left: 12px;
+    position: relative;
+    z-index: 1;
+}
+
+.kiwi-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.kiwi-header {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding: 12px 0px;
+    border-bottom: 1px dashed green;
+    margin-bottom: 12px;
+}
+
+.serves {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 72px;
+}
+
+.serves p {
+    font-size: 30px;
+    font-style: italic;  
+}
+
+.kiwi span {
+    font-weight: bold;
+    color: #008000;
+}
+
+.kiwi .ingredients {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.kiwi-description {
+    font-size: 28px;
+    line-height: 2.5rem;
+    margin-bottom: 48px;
+}
+
+article.kiwi > p:nth-child(7) {
+    margin-bottom: 72px;
+}
+
+table tr,
+table tr th,
+table tr td {
+    border: 1px solid #008000;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    text-align: center;
+}
+
+table tr th {
+    font-weight: bold;
+    font-size: 22px;
+    padding: 6px 0px;
+}
+
+table tr td {
+    font-size: 22px;
+    padding: 6px 0px;
+}
+
+.decoration-img {
+    height: 82%;
+    position: absolute;
+    z-index: -1;
+    left: -1%;
+    bottom: 21%;
+}
+
+.decoration-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
