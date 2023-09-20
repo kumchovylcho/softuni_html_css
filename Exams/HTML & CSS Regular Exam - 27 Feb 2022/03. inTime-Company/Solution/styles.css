@@ -1,0 +1,335 @@
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+    align-items: center;
+}
+
+.nav-wrapper ul {
+    display: flex;
+    position: relative;
+}
+
+.nav-wrapper ul li:first-child::before {
+    position: absolute;
+    content: "";
+    width: 64px;
+    height: 4px;
+    background-color: #008CBA;
+    left: 59px;
+    bottom: -40%;
+}
+
+.nav-wrapper ul li a {
+    margin-left: 58px;
+    color: #474A4B;
+    font-size: 22px;
+}
+
+.nav-wrapper p {
+    color: #474A4B;
+    font-size: 35px;
+}
+
+.nav-wrapper p span {
+    color: #008CBA;
+}
+
+.business-logo {
+    position: relative;
+    height: 623px;
+}
+
+.logo-box {
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 24px;
+}
+
+.logo-box h2 {
+    font-size: 55px;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.logo-box button {
+    background-color: #008CBA;
+    color: white;
+    font-size: 25px;
+    border-radius: 24px;
+    padding: 10px 37px;
+}
+
+.welcome-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 48px 0px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome h1,
+.welcome p {
+    color: #474A4B;
+    margin-bottom: 48px;
+}
+
+.welcome h1 {
+    font-size: 40px;
+    position: relative;
+}
+
+.welcome h1::before {
+    position: absolute;
+    content: "";
+    background-color: #008CBA;
+    width: 140px;
+    height: 4px;
+    bottom: -30%;
+    left: 38%;
+}
+
+.welcome p {
+    font-size: 23px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.welcome button {
+    background-color: #454545;
+    padding: 12px 24px;
+    color: white;
+    border-radius: 24px;
+}
+
+.services-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 48px 0px;
+}
+
+.services-bg {
+    background-color: #EEF0F1;
+}
+
+.services-header {
+    position: relative;
+    color: #474A4B;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.services-header::before {
+    position: absolute;
+    content: "";
+    background-color: #474A4B;
+    width: 122px;
+    height: 4px;
+    left: 46%;
+    bottom: -30%;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-item {
+    width: 32%;
+}
+
+.item-footer {
+    background-color: white;
+}
+
+.service-item-img {
+    height: 325px;
+}
+
+.service-item-img img {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.item-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 12px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.item-footer-header {
+    color: #474A4B;
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+.item-footer-text {
+    color: #474A4B;
+    font-size: 25px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.item-footer button {
+    background-color: #454545;
+    color: white;
+    font-size: 30px;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.subscribe-bg {
+    background-color: #393F43;
+}
+
+.subscribe-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0px 60px 0px;
+}
+
+.subscribe-header {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 36px;
+    position: relative;
+}
+
+.subscribe-header::before {
+    position: absolute;
+    content: "";
+    width: 155px;
+    height: 4px;
+    background-color: white;
+    left: 40%;
+    bottom: -35%;
+}
+
+.subscribe-text {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 36px;
+}
+
+.subscribe-wrapper input {
+    padding: 12px 12px;
+    width: 40%;
+    background-color: #545A5E;
+    border-radius: 6px;
+}
+
+.subscribe-wrapper button {
+    background-color: #6BBFFF;
+    color: white;
+    font-size: 17px;
+    padding: 12px 48px;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+
+.inputs {
+    width: 100%;
+    text-align: center;
+}
+
+.subscribe-wrapper input {
+    padding: 20px 12px;
+    width: 45%;
+    background-color: #545A5E;
+    border-radius: 6px;
+    margin-right: 6px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.subscribe-wrapper button {
+    background-color: #6BBFFF;
+    color: white;
+    font-size: 22px;
+    padding: 20px 60px;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+
+footer nav {
+    background-color: #2F3539;
+}
+
+.footer-nav-wrapper {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 60px 0px 48px 0px;
+}
+
+.links {
+    width: 15%;
+}
+
+.links-header {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 24px;
+}
+
+.links ul li a,
+.links ul li {
+    color: white;
+}
+
+.links ul li {
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+footer > nav > div > article:nth-child(3) > ul > li:nth-child(1) {
+    margin-bottom: 48px;
+}
+
+.links p i {
+    color: white;
+    font-size: 25px;
+    margin-right: 12px;
+}
+
+.copyright {
+    background-color: #262B2F;
+    padding: 12px 0px;
+}
+
+.copyright p {
+    color: white;
+    text-align: center;
+}
+
+.copyright p span {
+    color: #6BBFFF;
+}
