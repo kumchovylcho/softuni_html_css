@@ -1,0 +1,111 @@
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #E9E9E9;
+}
+
+label {
+    color: #D3D5D3;
+}
+
+.left {
+    background-image: url(../image/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 50%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    box-shadow: 0px 4px 8px gray;
+}
+
+.left-body {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.left-body-header {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.left-body-text-up {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.left-body-text-down {
+    text-align: center;
+    font-size: 22px;
+}
+
+.left-body-icons {
+    align-self: center;
+}
+
+.left-body-icons i {
+    font-size: 20px;
+    margin-right: 12px;
+}
+
+form {
+    width: 50%;
+    padding: 24px;
+    background-color: white;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    box-shadow: 1px 3px 8px gray;
+}
+
+.wrapper {
+    display: flex;
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+#username,
+#email,
+#password,
+#re-password {
+    padding: 12px 0px 6px 12px;
+    border-bottom: 1px solid #D3D5D3;
+    margin-bottom: 24px;
+}
+
+.form-footer {
+    padding: 48px 0px 24px 0px;
+}
+
+.form-footer p button {
+    background-color: #111111;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 24px;
+    padding: 12px 48px;
+}
+
+.form-footer p span {
+    text-decoration: underline;
+    margin-left: 12px;
+}
