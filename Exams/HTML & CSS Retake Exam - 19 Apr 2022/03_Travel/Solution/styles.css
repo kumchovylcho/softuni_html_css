@@ -1,0 +1,253 @@
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+header .wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.buttons {
+    padding: 24px 0px;
+}
+
+.buttons ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons ul li {
+    margin-left: 48px;
+    padding: 12px;
+    color: #4E5773;
+    font-size: 25px;
+}
+
+.buttons ul li:hover {
+    background-color: #B58E10;
+    cursor: pointer;
+    color: white;
+}
+
+.buttons ul li i {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.links {
+    padding: 12px 0px;
+}
+
+.links ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links ul li {
+    margin-left: 48px;
+}
+
+.links ul li a {
+    padding: 12px;
+    color: #4E5773;
+    font-size: 25px;
+}
+
+.links ul li a:hover {
+    color: white;
+    background-color: #B58E10;
+}
+
+.logo {
+    height: 600px;
+    background-image: url(../image/slider.jpg);
+    background-position: center;
+    position: relative;
+}
+
+.budapest-logo {
+    width: 250px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(205,169,57,1) 0%, rgba(178,139,34,1) 50%, rgba(152,108,13,1) 100%);
+    position: absolute;
+    text-align: center;
+    top: -9%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+}
+
+.budapest-logo img {
+    width: 70%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-text {
+    width: 36%;
+    position: absolute;
+    top: 33%;
+    left: 10%;
+}
+
+.logo-text-wrapper {
+    padding: 36px 12px 24px 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo-text-header {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.logo-text-wrapper p {
+    font-size: 27px;
+    color: white;
+    line-height: 1.3em;
+    margin-bottom: 12px;
+}
+
+.logo-text-wrapper button {
+    background-color: transparent;
+    color: #FBA403;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 2px;
+    padding: 12px 24px;
+    font-size: 20px;
+}
+
+.budapest-card {
+    padding: 36px 0px 72px 0px;
+    background: linear-gradient(90deg, rgba(150,103,11,1) 0%, rgba(178,136,34,1) 50%, rgba(207,171,59,1) 100%);
+}
+
+.budapest-card-wrapper {
+    width: 35%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.budapest-card-wrapper h2 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.budapest-card-wrapper p {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.budapest-card-wrapper button {
+    position: absolute;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12px 24px;
+    bottom: -31%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.transport {
+    width: 75%;
+    margin: 0 auto;
+    padding: 48px 0px;
+}
+
+.transport-header {
+    color: #52586E;
+    font-size: 53px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.transport-sub-header {
+    color: #52586E;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 24px;
+}
+
+.transport-items {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.transport-item {
+    width: 19%;
+}
+
+.transport-item-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid #52586E;
+    padding: 3px;
+}
+
+.transport-item-img {
+    margin-bottom: 12px;
+}
+
+.transport-item p {
+    text-align: center;
+    color: #52586E;
+    font-size: 17px;
+}
+
+.subscribe {
+    background-color: #B58E0F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.subscribe-left {
+    margin-top: 24px;
+}
+
+.subscribe-left h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.subscribe-left p {
+    color: white;
+    font-size: 18px;
+}
+
+.subscribe button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px 24px;
+}
+
+footer {
+    padding: 24px 0px;
+}
+
+footer p {
+    text-align: center;
+}
