@@ -1,0 +1,49 @@
+@media screen and (max-width: 800px) {
+    nav {
+        width: 100%;
+        margin: 0;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    nav p {
+        margin-bottom: 12px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .trainings {
+        flex-direction: column;
+    }
+
+    .trainings div {
+        width: 50%;
+    }
+
+    .instructors-pic {
+        justify-content: center;
+    }
+
+    .classes li {
+        width: 50%;
+    }
+
+    .getInTouch {
+        display: block;
+        margin-bottom: 24px;
+    }
+
+    .wrapper {
+        flex-direction: row;
+        flex-wrap: wrap
+    }
+
+    .site-footer .about {
+        flex: 0 0 100%;
+    }
+
+}
