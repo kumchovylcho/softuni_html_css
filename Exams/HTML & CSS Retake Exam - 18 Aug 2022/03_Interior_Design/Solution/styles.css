@@ -1,0 +1,214 @@
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.top-img {
+    height: 1100px;
+    position: relative;
+}
+
+.top-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.design {
+    position: absolute;
+    top: 3%;
+    left: 4%;
+    border: 1px solid black;
+    padding: 36px 12px;
+    box-shadow: 2px 2px 15px gray;
+}
+
+.design h2 {
+    width: 50%;
+    font-size: 50px;
+    line-height: 4rem;
+}
+
+.design p {
+    font-size: 20px;
+}
+
+.design-line {
+    background-color: white;
+    border: none;
+    height: 2px;
+    width: 53%;
+    margin-right: 175px;
+    margin-bottom: 12px;
+}
+
+.img-text {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    background: linear-gradient(90deg, rgba(157,147,139,1) 0%, rgba(192,187,182,1) 50%, rgba(201,199,198,1) 100%);
+}
+
+.img-text {
+    width: 30%;
+    position: absolute;
+    right: 3%;
+    top: 25%;
+    background: linear-gradient(90deg, rgba(157,147,139,1) 0%, rgba(192,187,182,1) 50%, rgba(201,199,198,1) 100%);
+    padding: 80px 12px 24px 12px;
+    text-align: end;
+    box-shadow: 3px 3px 14px black;
+}
+
+.img-text p {
+    position: relative;
+    line-height: 2.4rem;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 27px;
+}
+
+.img-text p::before {
+    position: absolute;
+    content: '"';
+    top: -5%;
+    right: 0%;
+    color: #8D8581;
+    font-size: 4em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.services {
+    display: flex;
+}
+
+.services-left {
+    width: 75%;
+    background-color: #F2F0F3;
+    padding: 48px 0px 24px 0px;
+}
+
+.services-right {
+    width: 25%;
+    background-color: #BAB1AD;
+}
+
+.services-left-wrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.services-left-wrapper h1 {
+    font-size: 40px;
+    margin-bottom: 36px;
+}
+
+.service {
+    margin-bottom: 36px;
+}
+
+.service p {
+    font-size: 29px;
+    line-height: 2.4rem;
+}
+
+.service p i {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 22px;
+}
+
+.contact {
+    font-size: 40px;
+}
+
+section.services-left > div:nth-child(1) > section:nth-child(5) {
+    margin-bottom: 120px;
+}
+
+.services-left-wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 2.5rem;
+    margin-bottom: 36px;
+}
+
+.services-left-wrapper ul li {
+    width: 25%;
+    font-size: 24px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.inputs input[type="email"] {
+    background-color: #BAB1AD;
+    padding: 12px;
+    width: 35%;
+}
+
+.inputs input[type="email"]::placeholder {
+    color: white;
+}
+
+.inputs button {
+    background-color: #67784D;
+    padding: 14px 24px 13px 24px;
+    margin-left: 12px;
+    border-radius: 6px;
+    color: white;
+}
+
+.contact-seperator {
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 24px;
+}
+
+.services-right ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 60px 40px;
+}
+
+.services-right ul li {
+    height: 15%;
+}
+
+.numbers {
+    font-size: 80px;
+    color: white;
+}
+
+.text-numbers {
+    font-size: 23px;
+}
