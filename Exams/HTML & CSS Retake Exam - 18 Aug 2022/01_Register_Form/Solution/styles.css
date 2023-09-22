@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+body {
+    font-family: Mulish, sans-serif;
+}
+
+.bg {
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wrapper {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 24px;
+    box-shadow: 15px 15px 15px gray;
+}
+
+.form-bg {
+    width: 107%;
+    position: relative;
+}
+
+.form-wrapper {
+    position: absolute;
+    top: 0%;
+    width: 50%;
+    padding: 48px 36px 36px 36px;
+}
+
+.form-wrapper h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    padding-top: 80px;
+}
+
+.names,
+.email,
+.pass,
+.checkbox {
+    color: #818181;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #818181;
+    border-radius: 24px;
+    padding: 18px;
+    margin: 12px 0px 24px 0px;
+    background-color: transparent;
+}
+
+.names {
+    display: flex;
+    justify-content: space-between;
+}
+
+.names div {
+    width: 48%;
+}
+
+input[type="checkbox"] {
+    width: 3%;
+    background-color: #EBEBEB;
+}
+
+.checkbox p span {
+    margin-left: 12px;
+}
+
+.checkbox {
+    margin-bottom: 24px;
+}
+
+.register {
+    text-align: center;
+}
+
+.register button {
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: #AE3C33;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 36px;
+}
