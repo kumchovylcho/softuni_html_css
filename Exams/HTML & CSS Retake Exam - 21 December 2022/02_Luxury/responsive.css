@@ -1,0 +1,104 @@
+@media screen and (max-width: 600px) {
+
+    header .div-header {
+        display: none;
+    }
+
+    body > header > h3 {
+        font-size: 16px;
+    }
+
+    body > header > h1 {
+        font-size: 29px;
+    }
+
+    .options {
+        flex-direction: column;
+    }
+
+    header .options article {
+        text-align: center;
+        width: 100%;
+    }
+
+    header .options article a {
+        display: none;
+    }
+
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery article a,
+    .blog-title > h4 > span,
+    .blog-title > a,
+    .blog article img,
+    .magazine-title a {
+        display: none;
+    }
+
+    .blog article {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog #about-blog {
+        width: 90%;
+    }
+
+    body > main > section.magazine > article {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body > main > section.magazine > article > div {
+        text-align: center;
+        margin: 0;
+    }
+
+    body > main > section.magazine > article > div > img{
+        width: 90%;
+        height: 200px;
+    }
+
+    body > main > section.magazine > div {
+        width: 85%;
+        padding: 40px 0px 0 40px;
+    }
+
+    body > main > section.magazine > div > h4 {
+        font-size: 22px;
+    }
+
+    body > main > section.magazine > article > div > h3 {
+        margin-bottom: 36px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer .icons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body > main > section.blog > div > h4 {
+        font-size: 30px;
+    }
+
+    body > main > section.blog > div {
+        padding: 40px 0px 0px 50px;
+    }
+
+    .blog #about-blog > h3 {
+        font-size: 14px;
+    }
+
+    .blog #about-blog > p {
+        font-size: 8px;
+    }
+  
+}
