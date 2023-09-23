@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif');
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+
+body {
+    font-family: 'PT Sans', 'PT Serif';
+}
+
+header {
+    background-color: #D01919;
+}
+
+header nav {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px;
+    color: white;
+}
+
+.header-item p i {
+    padding-left: 6px;
+}
+
+.logo {
+    height: 600px;
+    position: relative;
+}
+
+.logo-img {
+    height: 100%;
+}
+
+.logo-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo nav {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+}
+
+.logo nav ul {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+.logo nav ul li {
+    margin-left: 80px;
+    font-size: 21px;
+}
+
+.logo-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.logo-text h1 {
+    font-size: 50px;
+    letter-spacing: 1rem;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.logo-text p {
+    font-size: 22px;
+    line-height: 1.5em;
+    width: 66%;
+    margin: 0 auto;
+    margin-bottom: 36px;
+}
+
+.logo-text button {
+    background-color: #D01919;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 12px 36px;
+}
+
+.welcome-items {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome-item {
+    width: 20%;
+    text-align: center;
+}
+
+.welcome-item-img {
+    width: 35%;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.welcome-item-img img,
+.coach-item-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.welcome h2,
+.coaches .coaches-header {
+    position: relative;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding: 48px 0px 90px 0px;
+}
+
+.underline {
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 50px;
+    background-color: #D01919;
+}
+
+.welcome-item h4 {
+    font-size: 20px;
+    color: #D01919;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.welcome,
+.coaches {
+    padding-bottom: 80px;
+}
+
+.coaches {
+    background-color: #EFEFEF;
+}
+
+.coach-items {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.coach-item {
+    width: 20%;
+}
+
+.coach-item-img,
+.coach-item h2, 
+.coach-item h4 {
+    margin-bottom: 12px;
+}
+
+.coach-item h2,
+.coach-item h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.coach-item h4 {
+    color: #D01919;
+}
+
+.coach-item p {
+    color: #A6A1A5;
+    line-height: 1.2rem;
+    font-size: 18px;
+}
+
+footer {
+    padding: 16px;
+    background-color: #D01919;
+}
+
+footer p {
+    text-align: center;
+    font-size: 22px;
+}
