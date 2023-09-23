@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+img,
+.overlay,
+main article {
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+main article {
+    width: 70%;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 11px 1px 35px gray;
+    border-radius: 24px;
+}
+
+.fitness-img,
+.form-calc {
+    width: 50%;
+}
+
+.form-calc {
+    background-color: #F6F7F8;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.fitness-img {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0%;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper h1 {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 36px 0px;
+}
+
+.unit-btns {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+}
+
+.unit-btns button {
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 12px;
+    width: 30%;
+}
+
+.unit-btns button:first-child {
+    background-color: #86D862;
+}
+
+.unit-btns button:last-child {
+    background-color: #E0E0DF;
+}
+
+.genders p,
+.weight p,
+.height p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.genders-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.genders-wrapper select,
+.genders-wrapper input {
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.genders,
+.weight,
+.height {
+    margin-bottom: 24px;
+}
+
+.weight input {
+    width: 87%;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.height-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.height-wrapper input {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 3px 0px 3px 4px;
+    width: 43%;
+}
+
+.calculate-btn {
+    padding-top: 75px;
+}
+
+.calculate-btn button {
+    background-color: #05A2D3;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 12px 0px;
+    width: 100%;
+    border-radius: 24px;
+    box-shadow: 4px 4px 15px gray;
+}
