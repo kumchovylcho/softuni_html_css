@@ -1,0 +1,83 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+body {
+    font-family: Inter, sans-serif;
+    background-image: url('../image/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cards-wrapper {
+    display: flex;
+    width: 85%;
+    justify-content: space-evenly;
+    height: 70vh;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.basic,
+.standard,
+.premium {
+    padding: 40px;
+    width: 28%;
+    background-color: white;
+}
+
+.basic,
+.premium {
+    height: 100%;
+}
+
+.standard {
+    height: 75vh;
+}
+
+.header {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 48px;
+    text-transform: uppercase;
+}
+
+.price {
+    font-size: 5em;
+    font-weight: 800;
+}
+
+.monthly-price {
+    margin-bottom: 48px;
+}
+
+.price-per-month {
+    color: #70808D;
+    margin-bottom: 36px;
+}
+
+.benefits-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.benefits > span {
+    font-weight: 500;
+}
+
+.subscribe {
+    background-color: #000000;
+    color: white;
+    font-size: 25px;
+    padding: 18px 24px;
+    border-radius: 6px;
+}
+
+.basic .benefits-wrapper {
+    margin-bottom: 90px;
+}
