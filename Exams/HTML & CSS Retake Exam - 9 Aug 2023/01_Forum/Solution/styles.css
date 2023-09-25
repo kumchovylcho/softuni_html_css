@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+
+body {
+    font-family: Inter, sans-serif;
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+main {
+    display: flex;
+    width: 80%;
+    gap: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+hr {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
+
+.left-articles-wrapper {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.right-article {
+    width: 30%;
+}
+
+.left-articles-wrapper > .top,
+.left-articles-wrapper > .bottom {
+    display: flex;
+}
+
+.top > .left,
+.bottom > .left {
+    width: 70%;
+}
+
+.top > .right,
+.bottom > .right {
+    width: 30%;
+    height: 75%;
+    text-align: center;
+}
+
+.top,
+.bottom,
+.right-article {
+    background-color: white;
+    padding: 68px 36px;
+}
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.left-text > i {
+    font-size: 60px;
+}
+
+.left-text-description {
+    font-size: 24px;
+    line-height: 1.3em;
+    color: #6A625B;
+}
+
+.left-text-name {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.right-article-top-text > i {
+    font-size: 7em;
+    margin-bottom: 60px;
+}
+
+.right-article-top-description {
+    font-size: 19px;
+    line-height: 1.4em;
+    color: #6A625B;
+}
+
+.right-article {
+    padding: 30px 36px;
+}
+
+.right-article-bottom-img > img {
+    width: 100px;
+    height: 100px;
+}
+
+.right-article-bottom-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 27%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.right-article-bottom {
+    display: flex;
+    height: 40%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.right-article-bottom-text {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.right-article-bottom-text > .actor-name {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.right-article-bottom-text > .actor-name-role {
+    color: #61676C;
+    font-size: 18px;
+    font-weight: 600;
+}
