@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+body {
+    font-family: Inter, sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+hr {
+    border: none;
+    background-color: #E4E4E4;
+    height: 1px;
+    margin-bottom: 36px;
+}
+
+header nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-log-in {
+    margin-right: 24px;
+    background-color: transparent;
+}
+
+.nav-sign-up {
+    background-color: #ADE2DF;
+    padding: 12px 16px;
+    border-radius: 6px;
+}
+
+.finbest-download {
+    background-color: #ADE2DF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 80px 0px 70px 0px;
+}
+
+.finbest-title {
+    font-size: 5.3em;
+    font-weight: 600;
+}
+
+.finbest-text {
+    font-size: 24px;
+}
+
+.download-btn {
+    background-color: #000000;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 24px 24px;
+}
+
+.download-btn > i {
+    margin-right: 8px;
+}
+
+.finbest-btns {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.statistics {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.statistic {
+    width: 33%;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+.statistic-number {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+
+.statistic-text {
+    font-size: 22px;
+    padding-bottom: 100px;
+}
+
+.transactions,
+.plans-right,
+.get-started {
+    background-color: #ADE2DF;
+}
+
+.transactions-wrapper {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.transactions-img {
+    border: 2px dashed #99bab8;
+}
+
+.transactions-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.transactions-text-wrapper {
+    width: 70%;
+}
+
+.transactions-text-title {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-bottom: 24px;
+}
+
+.transactions-sub-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.transactions-pure-text {
+    line-height: 1.5em;
+    margin-bottom: 36px;
+}
+
+.explore-pricings {
+    font-size: 18px;
+    position: relative;
+}
+
+.pricings-underline {
+    position: absolute;
+    bottom: -40%;
+    left: 0%;
+    content: "";
+    width: 197px;
+    height: 1px;
+    background-color: black;
+}
+
+.pricings-plans {
+    padding: 36px 0 72px 0;
+    background-color: #F3F5FA;
+}
+
+.title-wrapper {
+    text-align: center;
+}
+
+.plans-btn {
+    background-color: #ADE2DF;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+
+.plans-title {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.plans {
+    display: flex;
+}
+
+section.plans-left > section:nth-child(2),
+section.plans-left > section:nth-child(3) {
+    position: relative;
+}
+
+.plans-left {
+    display: flex;
+    width: 57%;
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    background-color: white;
+}
+
+.plans-right {
+    width: 43%;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.plan,
+.plans-right {
+    padding: 24px;
+}
+
+.plan-title,
+.plans-right-title {
+    text-align: center;
+    margin-bottom: 6px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.plan-sub-title {
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+.plan-price {
+    font-size: 45px;
+    font-weight: 700;
+    padding: 24px 0;
+}
+
+.plan-price > span {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+section.plans-left > section:nth-child(2)::before,
+section.plans-left > section:nth-child(3)::before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 85%;
+    background-color: #E4E4E4;
+    left: 0%;
+    top: 7%;
+}
+
+.plan-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+
+.get-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.get-btn button {
+    background-color: #ADE2DF;
+    border-radius: 12px;
+    padding: 24px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.plans-right-text {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin-bottom: 36px;
+}
+
+.plans-right-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    font-size: 20px;
+}
+
+.contact-btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 48.3%;
+    justify-content: flex-end;
+}
+
+.contact-btn {
+    background-color: #000000;
+    color: white;
+    padding: 24px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.get-started-wrapper {
+    width: 36%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.get-started-title {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.3em;
+    margin-bottom: 12px;
+}
+
+.get-started-text {
+    font-size: 23px;
+    margin-bottom: 48px;
+    line-height: 1.5em;
+}
+
+footer nav {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0;
+}
+
+.footer-copyright {
+    font-size: 18px;
+}
+
+.footer-icons {
+    font-size: 20px;
+    display: flex;
+    gap: 24px;
+}
