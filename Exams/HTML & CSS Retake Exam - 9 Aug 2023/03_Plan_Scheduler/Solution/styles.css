@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: #D9D9D9;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 36px;
+    font-size: 20px;
+}
+
+.buy-now {
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 12px 16px;
+}
+
+.get-started {
+    background-image: url(../images/background.jpg);
+    height: 762px;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.get-started-text {
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    width: 38%;
+}
+
+.get-started-text-title {
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.get-started-text-description {
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+    line-height: 1.7rem;
+    margin-bottom: 48px;
+}
+
+.get-started-btn {
+    background-color: #000000;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+}
+
+.statistics {
+    background-color: white;
+    display: flex;
+    gap: 36px;
+    text-align: center;
+    justify-content: center;
+    padding: 60px 0 48px 0;
+}
+
+.statistic-number {
+    color: #FF7C4C;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+
+.statistic-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.statistic-text {
+    color: #7E8174;
+}
+
+.enterprise-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 48px 0;
+}
+
+.enterprise-item {
+    display: flex;
+    gap: 28px;
+}
+
+.enterprise-item-img {
+    width: 35%;
+}
+
+.enterprise-item-text {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+}
+
+.enterprise-item-text-title {
+    color: #5B5D5E;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.enterprise-item-text-sub-title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.enterprise-item-text-description {
+    font-size: 21px;
+    line-height: 1.6rem;
+    margin-bottom: 12px;
+    color: #595959;
+}
+
+.enterprise-item-read-more {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.enterprise-item-text-posted-by {
+    font-size: 18px;
+    color: #595959;
+}
+
+.pricings-wrapper {
+    background-color: #F5F5F5;
+}
+
+.pricings {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 48px 0;
+}
+
+.pricing-plans,
+.pricing-free,
+.pricing-paid {
+    width: 30%;
+}
+
+.pricing-free,
+.pricing-paid {
+    text-align: center;
+    padding: 24px 0;
+}
+
+.pricing-plan-title {
+    padding-top: 12px;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.pricing-plan-text {
+    font-size: 19px;
+    color: #595959;
+}
+
+.pricing-free {
+    background-color: #FF7C4C;
+}
+
+.pricing-free-title,
+.pricing-paid-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.pricing-free-money,
+.pricing-paid-money {
+    font-size: 60px;
+    font-weight: 200;
+    margin-bottom: 60px;
+}
+
+.benefits-wrapper,
+.benefits-paid-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.benefits {
+    font-size: 20px; 
+}
+
+.benefits > span {
+    font-weight: 800;
+}
+
+.pricing-free-projects,
+.pricing-paid-projects {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.pricing-free-learn-more-btn > button {
+    background-color: #000000;
+    color: white;
+    padding: 18px 36px;
+    border-radius: 6px;
+}
+
+.pricing-paid {
+    background-color: #000000;
+    color: white;
+}
+
+.pricing-paid-learn-more-btn > button {
+    background-color: white;
+    padding: 18px 36px;
+    border-radius: 6px;
+}
+
+footer {
+    padding: 48px 0;
+}
+
+footer > nav > ul {
+    display: flex;
+    justify-content: center;
+    gap: 11em;
+    font-size: 25px;
+}
