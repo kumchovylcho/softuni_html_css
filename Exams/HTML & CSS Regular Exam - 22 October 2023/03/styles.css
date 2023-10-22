@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+body {
+    font-family: "PT Sans", "PT Serif", sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    padding: 2em 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header nav ul {
+    display: flex;
+    gap: 2em;
+}
+
+header nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+
+.header-wrapper {
+    background-image: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 21em;
+}
+
+.nav-logo {
+    width: 7em;
+}
+
+.header-about {
+    color: white;
+    width: 41%;
+    margin-left: 15em;
+    padding-top: 2em;
+}
+
+.header-about-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.header-about-title {
+    font-size: 4em;
+    font-family: "PT Serif";
+}
+
+.header-about-description {
+    font-size: 1.5em;
+    line-height: 1.6em;
+}
+
+.site-info {
+    display: flex;
+    padding: 8em 0;
+    justify-content: center;
+    gap: 6em;
+}
+
+.business,
+.objectives {
+    width: 35%;
+}
+
+.site-info-title {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    font-family: "PT Serif";
+}
+
+.site-info-description {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 3.5em;
+}
+
+.site-info-link {
+    color: #B0825C;
+    font-weight: bold;
+    border: 2px solid #B0825C;
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+}
+
+.separator {
+    border-bottom: 0px solid #CCCCCC;
+    margin: 0;
+}
+
+.pumpkin-color {
+    color: #B0825C;
+}
+
+.pumpkin-font-size {
+    font-size: 3em;
+    font-family: "PT Serif";
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+}
+
+.sponsors-description {
+    color: #967d81;
+    font-size: 1.3em;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 4em;
+    line-height: 1.5em;
+}
+
+.sponsors {
+    text-align: center;
+}
+
+.sponsor-images {
+    display: flex;
+    justify-content: center;
+    gap: 7em;
+}
+
+.sponsor-images-left,
+.sponsor-images-right {
+    width: 5%;
+    position: relative;
+}
+
+.circle {
+    width: 9em;
+    height: 9em;
+    background-color: #DDDDDD;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    background-color: #171720;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    padding: 4em 0 5em 0;
+}
+
+.nav-card ul li a {
+    color: #ADA6A8;
+    text-transform: uppercase;
+}
+
+.nav-title {
+    color: white;
+    font-family: "PT Serif";
+    margin-bottom: 2em;
+    font-size: 1.5em;
+}
+
+.nav-card {
+    flex: 0 1 19%;
+}
+
+.nav-card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.footer-copyright {
+    color: #ADA6A8;
+    padding: 2em 0;
+    margin-left: 12%;
+}
